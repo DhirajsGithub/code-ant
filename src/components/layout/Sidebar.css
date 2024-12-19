@@ -91,6 +91,12 @@
   padding: 16px;
 
 }
+.mobile-bar-nav{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .mobile-bar-overlay {
   position: fixed;
   top: 64px;

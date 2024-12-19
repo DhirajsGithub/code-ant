@@ -4,14 +4,16 @@ import "./sidebarCompStyle.css";
 interface NavigationButtonInterface {
   icon: React.FC;
   name: string;
+  onClick?: () => void;
 }
 
 const NavigationButton: React.FC<NavigationButtonInterface> = ({
   icon: Icon,
   name,
+  onClick,
 }) => {
   return (
-    <div className="navigationBtn">
+    <div onClick={onClick} className="navigationBtn">
       <div>
         <Icon />
       </div>

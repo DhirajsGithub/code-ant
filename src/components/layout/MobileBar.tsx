@@ -12,11 +12,15 @@ import { LuBookText } from "react-icons/lu";
 import { FiPhone, FiLogOut } from "react-icons/fi";
 import RepoNameButton from "../sidebar/RepoNameButton";
 import { IoClose } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 
 const MobileBar: React.FC = () => {
+  const navigation = useNavigate()
   const [openMenu, setOpenMenu] = useState(false);
-
+  const handleLogoutClick = () => {
+    navigation("/")
+  }
   return (
     <div className="mobile-bar-wrapper">
       <div style={{borderBottom: openMenu ? "none" : ""}} className="mobile-bar">
@@ -44,7 +48,7 @@ const MobileBar: React.FC = () => {
             <NavigationButton icon={LuBookText} name="How to Use" />
             <NavigationButton icon={GoGear} name="Settings" />
             <NavigationButton icon={FiPhone} name="Support" />
-            <NavigationButton icon={FiLogOut} name="Logout" />
+            <NavigationButton onClick={handleLogoutClick} icon={FiLogOut} name="Logout" />
           </div>
           </div>
         </div>

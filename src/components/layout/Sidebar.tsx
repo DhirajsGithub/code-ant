@@ -12,10 +12,14 @@ import { LuBookText } from "react-icons/lu";
 import { FiPhone, FiLogOut } from "react-icons/fi";
 import MobileBar from "./MobileBar";
 import useWindowSize from "../../hooks/useWindowSize";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar: React.FC = () => {
-
- const isMobile = useWindowSize()
+  const isMobile = useWindowSize();
+  const navigation = useNavigate();
+  const handleLogoutClick = () => {
+    navigation("/");
+  };
 
   if (isMobile) {
     return <MobileBar />;
@@ -43,7 +47,11 @@ const Sidebar: React.FC = () => {
       <div className="content">
         <div className="navigation">
           <NavigationButton icon={FiPhone} name="Support" />
-          <NavigationButton icon={FiLogOut} name="Logout" />
+          <NavigationButton
+            onClick={handleLogoutClick}
+            icon={FiLogOut}
+            name="Logout"
+          />
         </div>
       </div>
     </div>
