@@ -67,6 +67,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex-grow: 1;
 }
 .input-search input.middle:focus {
   outline-width: 0;
