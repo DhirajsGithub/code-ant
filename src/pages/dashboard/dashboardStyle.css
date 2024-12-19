@@ -1,0 +1,40 @@
+.dashboard{
+    display: flex;
+}
+.dashboard-content{
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    padding: 24px;
+}
+.inner-content {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background-color: var(--primary);
+}
+.no-repos-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.no-repos-found h1{
+    padding: 24px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 700px) {
+    .dashboard{
+        display: block;
+    }
+    .dashboard-content{
+        padding: 0px
+    }
+    .inner-content{
+        border: none;
+        border-radius: 0px;
+    }
+}

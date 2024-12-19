@@ -1,0 +1,149 @@
+.dash-content-header {
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.dash-content-header-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.repo-meta h1 {
+  color: var(--text-primary);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.repo-meta p {
+  color: var(--text-secondary);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.primary-btn h1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.primary-btn div {
+  font-size: 14px;
+}
+.header-btns {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.input-search {
+  display: flex;
+  max-width: 60%;
+  padding: 8px 12px;
+  align-items: center;
+  gap: var(--spacing-xs, 4px);
+  border-radius: var(--radius-md, 8px);
+  border: 1px solid #d5d7da;
+  background: #fff;
+}
+.input-search input {
+  border: none;
+  padding: 4px 6px;
+  background-color: var(--primary);
+  color: var(--text-secondary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.input-search input.middle:focus {
+  outline-width: 0;
+}
+.input-search .search-icon {
+  font-size: 18px;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+.repo-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+}
+.repo-card:hover{
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+.repo-name-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.repo-name-status h1 {
+  color: var(--text-primary);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+.status-card {
+  padding: 2px 8px;
+  border-radius: 9999px;
+  border: 1px solid #b2ddff;
+  background: #eff8ff;
+}
+.status-card p {
+  color: var(--action);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.repo-meta-details {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.repo-lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--action);
+}
+.repo-lang p {
+  color: var(--text-primary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+@media (max-width: 700px) {
+  .input-search {
+    max-width: 100%;
+  }
+  .repo-card {
+    padding: 16px;
+    gap: 8px;
+  }
+  .repo-meta-details {
+    gap: 24px;
+  }
+}

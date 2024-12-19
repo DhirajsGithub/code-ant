@@ -1,0 +1,118 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  background-color: var(--primary);
+  border-right: 1px solid var(--border);
+  max-width: 250px;
+  height: 100vh;
+  min-width: 250px;
+  gap: 100px;
+  overflow-y: scroll;
+}
+.logo-repo-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  padding: 24px 20px 0px 20px;
+}
+.navigation {
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.content:nth-child(2) {
+  padding-bottom: 24px;
+}
+.icon-heading {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.icon-heading h1 {
+  color: var(--text-primary);
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.icon-heading img {
+  width: 28.498px;
+  height: 32px;
+}
+.mobile-bar-wrapper{
+  height: 64px;
+}
+.mobile-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  border-bottom: 1px solid #e9eaeb;
+  background: var(--primary);
+  position: fixed;
+  width: 100%;
+}
+
+.mobile-bar .header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.mobile-bar .header .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.mobile-bar .header .icon:hover{
+  cursor: pointer;
+}
+.overlay-content{
+  background-color: var(--primary);
+  border-bottom: 1px solid #E9EAEB;
+  padding: 16px;
+
+}
+.mobile-bar-overlay {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(108, 108, 108, 0.3); 
+  z-index: 1000;
+
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInSlideDown 0.3s ease forwards; 
+}
+
+@keyframes fadeInSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

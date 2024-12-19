@@ -1,0 +1,67 @@
+.repoNameButton {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--primary);
+  overflow: hidden;
+  width: 100%;
+  /* Shadows/shadow-xs */
+  box-shadow: 0px 1px 2px 0px
+    var(--Colors-Effects-Shadows-shadow-xs, rgba(10, 13, 18, 0.05));
+}
+.repoNameButton h1 {
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Line-height-text-md, 24px); /* 150% */
+}
+.repoNameButton div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.repoNameButton:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.navigationBtn {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 6px;
+  background: var(--primary);
+}
+.navigationBtn:hover {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+.navigationBtn h1 {
+  color: var(--text-secondary);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.navigationBtn div{
+    font-size: 18px;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

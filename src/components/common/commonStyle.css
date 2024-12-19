@@ -1,0 +1,65 @@
+.primaryBtn {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: var(--action);
+  width: 100%;
+}
+.primaryBtn:hover{
+
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  background-color: #1263d5;
+  transition: ease-in-out 0.3s;
+}
+
+.primaryBtn h1 {
+  color: var(--primary);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.primaryBtn div{
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-btn{
+  display: flex;
+  padding: 10px 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 6px;
+  border: 1px solid var(--border);
+  background: var(--primary);
+
+}
+.sec-btn div{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.sec-btn h1{
+  color: var(--text-secondary);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+.sec-btn:hover{
+  cursor: pointer;
+  background-color: #f5f5f5;
+  transition: ease-in-out 0.1s;
+}

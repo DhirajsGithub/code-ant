@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--secondary);
+}
+:root {
+  --primary: #FFFFFF;
+  --secondary: #FAFAFA;
+  --action: #1570EF;
+  --border: #D5D7DA;
+  --text-primary: #181D27;
+  --text-secondary: #414651;
+  --text-tertiary: #081735;
+  --text-quaternary: #171717;
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(./assets/fonts/Satoshi-Variable.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/Inter-VariableFont.ttf);
+}

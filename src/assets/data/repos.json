@@ -1,0 +1,100 @@
+{
+  "repositories": [
+    {
+      "id": 1,
+      "name": "design-system",
+      "updated_date": "2024-12-19",
+      "access": "public",
+      "language": "React",
+      "size": 7320
+    },
+    {
+      "id": 2,
+      "name": "codeant-ci-app",
+      "updated_date": "2024-12-15",
+      "access": "private",
+      "language": "Javascript",
+      "size": 5871
+    },
+    {
+      "id": 3,
+      "name": "analytics-dashboard",
+      "updated_date": "2024-12-17",
+      "access": "private",
+      "language": "python",
+      "size": 4521
+    },
+    {
+      "id": 4,
+      "name": "mobile-app",
+      "updated_date": "2024-12-14",
+      "access": "public",
+      "language": "Swift",
+      "size": 3096
+    },
+    {
+      "id": 5,
+      "name": "e-commerce-platform",
+      "updated_date": "2024-12-18",
+      "access": "public",
+      "language": "Java",
+      "size": 6210
+    },
+    {
+      "id": 6,
+      "name": "blog-website",
+      "updated_date": "2024-12-19",
+      "access": "private",
+      "language": "HTML/CSS",
+      "size": 1876
+    },
+    {
+      "id": 7,
+      "name": "social-network",
+      "updated_date": "2024-12-12",
+      "access": "public",
+      "language": "PHP",
+      "size": 5432
+    },
+    {
+      "id": 8,
+      "name": "ProjectAlpha",
+      "updated_date": "2024-12-10",
+      "access": "public",
+      "language": "Python",
+      "size": 2048
+    },
+    {
+      "id": 9,
+      "name": "DataAnalyzer",
+      "updated_date": "2024-11-22",
+      "access": "private",
+      "language": "Java",
+      "size": 1536
+    },
+    {
+      "id": 10,
+      "name": "WebCrawler",
+      "updated_date": "2024-12-01",
+      "access": "public",
+      "language": "JavaScript",
+      "size": 3072
+    },
+    {
+      "id": 11,
+      "name": "MLToolkit",
+      "updated_date": "2024-10-15",
+      "access": "private",
+      "language": "Python",
+      "size": 5120
+    },
+    {
+      "id": 12,
+      "name": "APIServer",
+      "updated_date": "2024-11-05",
+      "access": "public",
+      "language": "Go",
+      "size": 2048
+    }
+  ]
+}

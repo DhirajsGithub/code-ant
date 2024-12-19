@@ -1,0 +1,31 @@
+/* NotFoundPage.css */
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: inter;
+  }
+  
+ .notFoundContainer h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .notFoundContainer p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  .notFoundContainer a{
+    text-decoration: none;
+    color: var(--action);
+    margin-top: 20px;
+  }
+  .notFoundContainer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
