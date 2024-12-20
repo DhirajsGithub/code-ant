@@ -1,0 +1,130 @@
+.login-page {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+.login-page .col {
+  width: 50%;
+  flex-grow: 1;
+}
+.login-page .col-1 {
+  background-color: var(--primary);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo-blind {
+  max-width: 284px;
+  max-height: 319px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+.col-1-content {
+  width: 550px;
+  position: relative;
+  z-index: 10;
+  height: 322px;
+}
+.issue-fixed-div {
+  left: 40%;
+  position: absolute;
+  bottom: 3%;
+  z-index: 5;
+}
+.login-page .col-2 {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 32px;
+}
+.col-2-content {
+  background-color: var(--primary);
+  border-radius: 12px;
+  border: 1px solid #e9eaeb;
+  box-shadow: 0px 1px 2px 0px
+  rgba(10, 13, 18, 0.05);
+  /* padding: 24px 36px; */
+}
+.col-2-content .col-2-content-row-1{
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+}
+.col-2-content .col-2-content-row-2{
+    padding: 24px;
+}
+.col-2-row-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.col-2-row-1 .icon-heading h1 {
+    color: var(--text-primary);
+    font-family: Satoshi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 33px */
+}
+.col-2-row-1 h1 {
+  color: var(--text-primary);
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 150% */
+}
+.col-2-row-2{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;    
+}
+.col-2-footer{
+  text-align: center;
+}
+.col-2-footer p{
+  color: var(--text-primary);
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.col-2-footer a{
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 700;
+
+}
+
+@media (max-width: 1100px) {
+  .col-1 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+    .col-2-row-1 h1 {
+      font-size: 22px;
+    }
+    .col-2-row-1{
+        gap: 20px;
+    }
+    .col-2-content .col-2-content-row-1, .col-2-content .col-2-content-row-2{
+        padding: 24px 16px;
+    }
+    .col-2-footer p{
+      font-size: 14px;
+    }
+    .login-page .col-2 {
+      gap: 18px
+    }
+    
+  }
+  

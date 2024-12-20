@@ -1,0 +1,166 @@
+.ai-detect-card {
+  border-radius: 24px;
+  background: var(--primary);
+  box-shadow: 0px 0px 24px 0px rgba(8, 23, 53, 0.16);
+  padding: 20px 22px;
+  width: 440px;
+}
+
+.ai-detect-card .ai-detect-row-1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--border);
+  gap: 8px;
+}
+.ai-detect-card .ai-detect-row-1 img {
+  width: 24px;
+  height: 24px;
+}
+.ai-detect-card h1 {
+  color: var(--text-tertiary);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+.ai-detect-card .ai-detect-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 22px;
+}
+.ai-detect-card .ai-detect-row-2 div {
+  text-align: center;
+}
+.ai-detect-card p {
+  color: var(---quaternary);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.issue-card {
+  border-radius: 24px;
+  background: var(--Primary-white, #fff);
+  box-shadow: 0px 0px 24px 0px rgba(8, 23, 53, 0.16);
+  width: fit-content;
+  padding: 15px 25px;
+  width: 260px;
+}
+.issue-card-row-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.issue-card-row-1 img {
+  width: 56px;
+  height: 56px;
+}
+.issue-card-growth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.issue-card-growth > svg,
+.issue-card-growth h3 {
+  font-family: Inter;
+  color: var(--action);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+.issue-card p {
+  color: var(--text-quaternary);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.issue-card-row-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+.issue-card-row-2 h2 {
+  color: var(--text-quaternary);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+.issue-card-row-2 h1 {
+  color: var(--text-tertiary);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.switch-btn {
+  background-color: var(--secondary);
+  align-items: center;
+  width: 50%;
+  padding: 14px 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  flex-grow: 1;
+}
+.switch-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+}
+.switch-btn h1 {
+  color: var(--text-secondary);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.logi-with-btn {
+  padding: 16px 0px;
+  background-color: var(--primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.logi-with-btn:hover{
+  cursor: pointer;
+  background-color: var(--secondary);
+}
+.logi-with-btn h1 {
+  color: var(--text-quaternary);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+.col-2-content-row-2{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (max-width: 700px) {
+  .switch-btn h1 {
+    font-size: 14px;
+  }
+  .switch-btn {
+    padding: 8px 0;
+  }
+  .logi-with-btn {
+    padding: 12px 0px;
+  }
+ 
+}
