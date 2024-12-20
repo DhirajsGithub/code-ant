@@ -10,7 +10,8 @@ A modern React application built with Vite, TypeScript, and React Router DOM.
 
 ---
 ## Demo Video Link
-[Demo video link]([https://drive](https://drive.google.com/file/d/1gLjxg05wzpKgQRbZtbQP4IZNCS3frZdc/view?usp=sharing))
+[Demo video link](https://drive.google.com/file/d/1gLjxg05wzpKgQRbZtbQP4IZNCS3frZdc/view?usp=sharing)
+
 
 ---
 
